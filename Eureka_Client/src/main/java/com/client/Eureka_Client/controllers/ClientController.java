@@ -16,11 +16,19 @@ public class ClientController {
         this.clientService = clientService;
     }
 
+    // Retrieve all clients
     @GetMapping
     public List<Client> getAllClients() {
         return clientService.getAllClients();
     }
 
+    // Retrieve a client by ID
+    @GetMapping("/{id}")
+    public Client getClientById(@PathVariable Long id) {
+        return clientService.getClientById(id);
+    }
+
+    // Add a new client
     @PostMapping
     public Client addClient(@RequestBody Client client) {
         return clientService.addClient(client);
