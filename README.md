@@ -10,4 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/53056071-15ed-4d03-8479-4377a0f79fb0)
 
+## L'enregistrement dans Eureka
+
+![image](https://github.com/user-attachments/assets/d731c2b0-e8fd-486d-bf29-c760422eefb6)
 
